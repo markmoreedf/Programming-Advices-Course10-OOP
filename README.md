@@ -12,6 +12,11 @@ I am building these tools to be used as my "standard library" for future courses
 
 * **`clsString.h`**: A robust utility for advanced string manipulation (Split, Trim, Case Inversion, etc.).
 * **`MyInputLibrary.h`**: A safe input validation engine to handle user data types (int, float, double) with built-in error guarding.
+* **`clsDate.h`**: A versatile and reusable C++ class designed to handle all date-related tasks, from simple formatting to intricate business logic and time-gap analysis, including the following:
+  * Smart Math: Automatic month/year rollover with leap year support.
+  * Business Ready: Calculate vacation days while automatically skipping weekends.
+  * Period Logic: Easily detect if two date ranges overlap or calculate days between them.
+  * Flexible Formatting: Convert dates to multiple string formats or custom patterns like yyyy-mm-dd.
 
 ## 📂 Project Highlights
 * **Inheritance & Polymorphism**: Practical examples including `clsSmartDevice`, `clsPerson`, and `clsEmployee` hierarchies.
