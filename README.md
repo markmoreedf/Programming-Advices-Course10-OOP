@@ -16,7 +16,22 @@ I am building these tools to be used as my "standard library" for future courses
   * Smart Math: Automatic month/year rollover with leap year support.
   * Business Ready: Calculate vacation days while automatically skipping weekends.
   * Period Logic: Easily detect if two date ranges overlap or calculate days between them.
-  * Flexible Formatting: Convert dates to multiple string formats or custom patterns like yyyy-mm-dd.
+  * Flexible Formatting: Convert dates to multiple string formats or custom patterns like yyyy-mm-dd. 
+*  **`clsUtility.h`** : A comprehensive, high-performance  C++ Utility Library 🛠️ designed for students and developers. This library provides a collection of static tools for **Math**, **Modern Randomization**, and **Data Security**.
+   * **🎲 Modern Randomization**: Uses the `std::mt19937` (Mersenne Twister) engine for high-quality random numbers, characters, and words.
+   * **🔐 Data Encryption**: Simple yet effective text encryption and decryption using custom keys.
+   * **🔢 Advanced Math**: Custom implementations for `IsPrime`, `IsPerfect`, `MyRound`, `MySqrt`, and more.
+   * **🔡 String & Word Generation**: Flexible generators for random strings, passwords, and security keys.
+   * **📂 Vector Tools**: Built-in `Shuffle` and `DoesExist` functions for various data types (`int`, `float`, `string`, etc.).
+
+
+
+## 🛠️ Tech Stack & Concepts
+
+* **Language**: C++11 or higher
+* **Paradigm**: Functional/Procedural, basic OOP (Static Utility Pattern)
+* **Library**: `<random>`, `<vector>`, `<string>`, `<limits>`
+
 
 ## 📂 Project Highlights
 * **Inheritance & Polymorphism**: Practical examples including `clsSmartDevice`, `clsPerson`, and `clsEmployee` hierarchies.
